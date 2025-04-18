@@ -1,0 +1,19 @@
+.loyalty-points-display a {
+    font-weight: bold;
+}
+
+.loyalty-points-floating {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    background: #f7f7f7;
+    padding: 10px 15px;
+    border-radius: 5px 0 0 5px;
+    box-shadow: -2px 2px 5px rgba(0,0,0,0.1);
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.loyalty-points-floating:hover {
+    background: #e3e3e3;
+}
